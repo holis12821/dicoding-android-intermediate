@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_medium_small">6dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+
+    <!--Resource from typography text-->
+    <dimen name="text_small">4sp</dimen>
+    <dimen name="text_medium">10sp</dimen>
+    <dimen name="text_large">12sp</dimen>
+    <dimen name="text_xlarge">16sp</dimen>
+
+</resources>
