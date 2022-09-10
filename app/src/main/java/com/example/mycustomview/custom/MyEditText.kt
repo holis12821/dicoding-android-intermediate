@@ -88,6 +88,8 @@ class MyEditText : AppCompatEditText, View.OnTouchListener {
                 clearButtonEnd = (clearButtonImage.intrinsicWidth.plus(paddingStart)).toFloat()
                 if ((event?.x ?: 0.0f) < clearButtonEnd) isClearButtonClicked = true
             } else {
+//                rumus ini untuk menghitung batas dri layar sih editTextnya sampai mana disentuhnya hingga menampilkan icon clear.
+//                ketika melewati atau melebihi
                 clearButtonStart = (width - paddingEnd - clearButtonImage.intrinsicWidth).toFloat()
                 if ((event?.x ?: 0.0f) > clearButtonStart) isClearButtonClicked = true
             }
