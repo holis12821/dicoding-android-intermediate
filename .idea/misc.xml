@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.25" />
         <entry key="app/src/main/res/drawable/bg_button.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/bg_button_disable.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_close_black_24.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25104166666666666" />
+        <entry key="ticketingApps/src/main/res/layout/activity_main.xml" value="0.12892603850050657" />
+        <entry key="ticketingApps/src/main/res/layout/activity_ticket.xml" value="0.11" />
       </map>
     </option>
   </component>
