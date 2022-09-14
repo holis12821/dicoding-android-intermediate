@@ -4,4 +4,7 @@
     <string name="fill_first">Isi Dulu</string>
     <string name="hint_edit_text">Masukkan nama Anda</string>
     <string name="title_ticketingapps">Ticketing Apps</string>
+    <string name="click_another_apps">Masuk ke Apps</string>
+    <string name="please_choice_seat">"Silakan Pilih Kursi"</string>
+    <string name="finish">Selesai</string>
 </resources>

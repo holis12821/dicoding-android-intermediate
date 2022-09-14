@@ -14,7 +14,13 @@
         android:theme="@style/Theme.MyCustomView"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".CustomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TicketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

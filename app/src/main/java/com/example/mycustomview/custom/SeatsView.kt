@@ -1,4 +1,4 @@
-package com.example.ticketingapps.ui.custom
+package com.example.mycustomview.custom
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,8 +10,8 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 import androidx.core.content.res.ResourcesCompat
-import com.example.ticketingapps.R
-import com.example.ticketingapps.ui.draw.Seat
+import com.example.mycustomview.R
+import com.example.mycustomview.draw.Seat
 
 class SeatsView : View {
 
@@ -183,5 +183,9 @@ class SeatsView : View {
             isBooked = true
         }
         invalidate()
+    }
+
+    fun getSeat(): Seat? {
+        return seat
     }
 }
